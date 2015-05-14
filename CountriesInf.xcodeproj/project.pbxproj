@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EA816011B0496A5003CAE8B /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA815FF1B0496A5003CAE8B /* MapView.m */; };
+		6EA816021B0496A5003CAE8B /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA816001B0496A5003CAE8B /* MapView.xib */; };
+		6EB3CB801B0443FC000444A1 /* trial.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EB3CB7F1B0443FC000444A1 /* trial.sqlite3 */; };
 		6EBFB86C1B0406BF00316736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBFB86B1B0406BF00316736 /* Foundation.framework */; };
 		6EBFB86E1B0406BF00316736 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBFB86D1B0406BF00316736 /* CoreGraphics.framework */; };
 		6EBFB8701B0406BF00316736 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBFB86F1B0406BF00316736 /* UIKit.framework */; };
@@ -21,6 +24,19 @@
 		6EBFB88D1B0406BF00316736 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBFB86F1B0406BF00316736 /* UIKit.framework */; };
 		6EBFB8951B0406BF00316736 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EBFB8931B0406BF00316736 /* InfoPlist.strings */; };
 		6EBFB8971B0406BF00316736 /* CountriesInfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBFB8961B0406BF00316736 /* CountriesInfTests.m */; };
+		6EBFB8B31B0407DA00316736 /* Berlin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBFB8A01B0407DA00316736 /* Berlin.png */; };
+		6EBFB8B41B0407DA00316736 /* chosenCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBFB8A21B0407DA00316736 /* chosenCity.m */; };
+		6EBFB8B51B0407DA00316736 /* chosenCity.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBFB8A31B0407DA00316736 /* chosenCity.xib */; };
+		6EBFB8B71B0407DA00316736 /* countryDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBFB8A61B0407DA00316736 /* countryDetail.m */; };
+		6EBFB8B81B0407DA00316736 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBFB8A91B0407DA00316736 /* DBManager.m */; };
+		6EBFB8B91B0407DA00316736 /* London.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBFB8AA1B0407DA00316736 /* London.png */; };
+		6EBFB8BA1B0407DA00316736 /* manageDb.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBFB8AC1B0407DA00316736 /* manageDb.m */; };
+		6EBFB8BB1B0407DA00316736 /* manageDb.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBFB8AD1B0407DA00316736 /* manageDb.xib */; };
+		6EBFB8BC1B0407DA00316736 /* Paris.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBFB8AE1B0407DA00316736 /* Paris.png */; };
+		6EBFB8BD1B0407DA00316736 /* Rome.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBFB8AF1B0407DA00316736 /* Rome.png */; };
+		6EBFB8BE1B0407DA00316736 /* table1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBFB8B11B0407DA00316736 /* table1.m */; };
+		6EBFB8BF1B0407DA00316736 /* table1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBFB8B21B0407DA00316736 /* table1.xib */; };
+		6EBFB8C11B04080500316736 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBFB8C01B04080500316736 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6EA815FE1B0496A5003CAE8B /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		6EA815FF1B0496A5003CAE8B /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		6EA816001B0496A5003CAE8B /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		6EB3CB7F1B0443FC000444A1 /* trial.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trial.sqlite3; sourceTree = "<group>"; };
 		6EBFB8681B0406BF00316736 /* CountriesInf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountriesInf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBFB86B1B0406BF00316736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6EBFB86D1B0406BF00316736 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +73,25 @@
 		6EBFB8921B0406BF00316736 /* CountriesInfTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountriesInfTests-Info.plist"; sourceTree = "<group>"; };
 		6EBFB8941B0406BF00316736 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EBFB8961B0406BF00316736 /* CountriesInfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountriesInfTests.m; sourceTree = "<group>"; };
+		6EBFB8A01B0407DA00316736 /* Berlin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Berlin.png; sourceTree = "<group>"; };
+		6EBFB8A11B0407DA00316736 /* chosenCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chosenCity.h; sourceTree = "<group>"; };
+		6EBFB8A21B0407DA00316736 /* chosenCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chosenCity.m; sourceTree = "<group>"; };
+		6EBFB8A31B0407DA00316736 /* chosenCity.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chosenCity.xib; sourceTree = "<group>"; };
+		6EBFB8A51B0407DA00316736 /* countryDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countryDetail.h; sourceTree = "<group>"; };
+		6EBFB8A61B0407DA00316736 /* countryDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = countryDetail.m; sourceTree = "<group>"; };
+		6EBFB8A71B0407DA00316736 /* dbManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbManage.h; sourceTree = "<group>"; };
+		6EBFB8A81B0407DA00316736 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		6EBFB8A91B0407DA00316736 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		6EBFB8AA1B0407DA00316736 /* London.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = London.png; sourceTree = "<group>"; };
+		6EBFB8AB1B0407DA00316736 /* manageDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manageDb.h; sourceTree = "<group>"; };
+		6EBFB8AC1B0407DA00316736 /* manageDb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = manageDb.m; sourceTree = "<group>"; };
+		6EBFB8AD1B0407DA00316736 /* manageDb.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = manageDb.xib; sourceTree = "<group>"; };
+		6EBFB8AE1B0407DA00316736 /* Paris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Paris.png; sourceTree = "<group>"; };
+		6EBFB8AF1B0407DA00316736 /* Rome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rome.png; sourceTree = "<group>"; };
+		6EBFB8B01B0407DA00316736 /* table1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = table1.h; sourceTree = "<group>"; };
+		6EBFB8B11B0407DA00316736 /* table1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = table1.m; sourceTree = "<group>"; };
+		6EBFB8B21B0407DA00316736 /* table1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = table1.xib; sourceTree = "<group>"; };
+		6EBFB8C01B04080500316736 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBFB8C11B04080500316736 /* libsqlite3.0.dylib in Frameworks */,
 				6EBFB86E1B0406BF00316736 /* CoreGraphics.framework in Frameworks */,
 				6EBFB8701B0406BF00316736 /* UIKit.framework in Frameworks */,
 				6EBFB86C1B0406BF00316736 /* Foundation.framework in Frameworks */,
@@ -101,6 +141,7 @@
 		6EBFB86A1B0406BF00316736 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EBFB8C01B04080500316736 /* libsqlite3.0.dylib */,
 				6EBFB86B1B0406BF00316736 /* Foundation.framework */,
 				6EBFB86D1B0406BF00316736 /* CoreGraphics.framework */,
 				6EBFB86F1B0406BF00316736 /* UIKit.framework */,
@@ -112,6 +153,28 @@
 		6EBFB8711B0406BF00316736 /* CountriesInf */ = {
 			isa = PBXGroup;
 			children = (
+				6EA815FE1B0496A5003CAE8B /* MapView.h */,
+				6EA815FF1B0496A5003CAE8B /* MapView.m */,
+				6EA816001B0496A5003CAE8B /* MapView.xib */,
+				6EB3CB7F1B0443FC000444A1 /* trial.sqlite3 */,
+				6EBFB8A01B0407DA00316736 /* Berlin.png */,
+				6EBFB8A11B0407DA00316736 /* chosenCity.h */,
+				6EBFB8A21B0407DA00316736 /* chosenCity.m */,
+				6EBFB8A31B0407DA00316736 /* chosenCity.xib */,
+				6EBFB8A51B0407DA00316736 /* countryDetail.h */,
+				6EBFB8A61B0407DA00316736 /* countryDetail.m */,
+				6EBFB8A71B0407DA00316736 /* dbManage.h */,
+				6EBFB8A81B0407DA00316736 /* DBManager.h */,
+				6EBFB8A91B0407DA00316736 /* DBManager.m */,
+				6EBFB8AA1B0407DA00316736 /* London.png */,
+				6EBFB8AB1B0407DA00316736 /* manageDb.h */,
+				6EBFB8AC1B0407DA00316736 /* manageDb.m */,
+				6EBFB8AD1B0407DA00316736 /* manageDb.xib */,
+				6EBFB8AE1B0407DA00316736 /* Paris.png */,
+				6EBFB8AF1B0407DA00316736 /* Rome.png */,
+				6EBFB8B01B0407DA00316736 /* table1.h */,
+				6EBFB8B11B0407DA00316736 /* table1.m */,
+				6EBFB8B21B0407DA00316736 /* table1.xib */,
 				6EBFB87A1B0406BF00316736 /* AppDelegate.h */,
 				6EBFB87B1B0406BF00316736 /* AppDelegate.m */,
 				6EBFB87D1B0406BF00316736 /* Main.storyboard */,
@@ -228,8 +291,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBFB8B91B0407DA00316736 /* London.png in Resources */,
+				6EBFB8BD1B0407DA00316736 /* Rome.png in Resources */,
 				6EBFB8841B0406BF00316736 /* Images.xcassets in Resources */,
+				6EBFB8BC1B0407DA00316736 /* Paris.png in Resources */,
+				6EB3CB801B0443FC000444A1 /* trial.sqlite3 in Resources */,
+				6EBFB8B31B0407DA00316736 /* Berlin.png in Resources */,
+				6EBFB8BB1B0407DA00316736 /* manageDb.xib in Resources */,
 				6EBFB8761B0406BF00316736 /* InfoPlist.strings in Resources */,
+				6EBFB8BF1B0407DA00316736 /* table1.xib in Resources */,
+				6EA816021B0496A5003CAE8B /* MapView.xib in Resources */,
+				6EBFB8B51B0407DA00316736 /* chosenCity.xib in Resources */,
 				6EBFB87F1B0406BF00316736 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +321,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBFB8B41B0407DA00316736 /* chosenCity.m in Sources */,
+				6EBFB8BA1B0407DA00316736 /* manageDb.m in Sources */,
 				6EBFB8821B0406BF00316736 /* ViewController.m in Sources */,
 				6EBFB87C1B0406BF00316736 /* AppDelegate.m in Sources */,
+				6EBFB8BE1B0407DA00316736 /* table1.m in Sources */,
+				6EBFB8B81B0407DA00316736 /* DBManager.m in Sources */,
 				6EBFB8781B0406BF00316736 /* main.m in Sources */,
+				6EA816011B0496A5003CAE8B /* MapView.m in Sources */,
+				6EBFB8B71B0407DA00316736 /* countryDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +538,7 @@
 				6EBFB89C1B0406C000316736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EBFB89D1B0406C000316736 /* Build configuration list for PBXNativeTarget "CountriesInfTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +547,7 @@
 				6EBFB89F1B0406C000316736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
